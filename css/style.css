@@ -1,0 +1,319 @@
+/*fonts link*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*common start*/
+:root {
+  --roboto: "Roboto", sans-serif;
+  
+  --primary-text: #111827; /* Charcoal */
+  --header-footer: #2c3e50; /* Blue-gray */
+  --accent-color:  #00bcd4; /* Cyan Blue – for links, buttons, active states */
+  --hover: #0097a7;  /* Darker Cyan – for hover effect */
+  --white: #ffffff; /* White */
+}
+
+body{
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  background-color: var(--primary-text);
+}
+/*common end*/
+
+/*header start*/
+.header{
+  padding: 20px 0;
+  background-color: var(--header-footer) ;
+}
+.c_nav{}
+.logo{
+	font-size: 36px;
+	font-weight: 700;
+	color: var(--accent-color);
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.menu{}
+.menu ul li a{
+	margin-right: 20px;
+	color: var(--white);
+	text-transform: uppercase;
+}
+.menu ul li a:hover{
+	color: var(--accent-color);
+  outline: 2px dashed var(--accent-color);
+}
+.menu ul li a.active {
+  color: var(--accent-color)!important;
+}
+/*header end*/
+
+/*hero start*/
+.slider{
+  margin-top: 80px;
+}
+/* Make carousel full height of viewport */
+.slider .carousel-item {
+  height: 100vh;
+  position: relative;
+}
+/* Ensure images fill the whole item space */
+.slider .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+/* Dark overlay for better text visibility */
+.slider .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity if needed */
+  z-index: 1;
+}
+/* Style carousel caption */
+.slider .carousel-caption {
+  z-index: 2; /* Above overlay */
+  position: absolute;
+  bottom: 20%;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow for better readability */
+}
+/* Headline styling */
+.slider .carousel-caption h5 {
+  font-size: 36px;
+  font-weight: bold;
+}
+/* Paragraph styling */
+.slider .carousel-caption p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+/* Optional: Add animation */
+.slider .carousel-caption h5,
+.slider .carousel-caption p {
+  animation: fadeInUp 1s ease-in-out;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.b_button{
+	margin-top: 30px;
+	padding: 10px 25px;
+  color: var(--white);
+	background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.b_button:hover {
+  background-color: var(--hover);
+  color: var(--primary-text);
+}
+/*hero end*/
+
+/*about start*/
+.about{
+  padding: 80px 0 20px;
+}
+.a_img img{}
+.a_title{}
+.a_title h2{
+  padding: 35px 0 40px;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+}
+.a_title p{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .8px;
+  color: var(--white);
+}
+.about_button {}
+/*about end*/
+
+/*skills start*/
+.skills{
+  padding: 80px 0 20px;
+  background-image: url(../images/sbg-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.skill_1{}
+.c_title {
+  padding: 35px 0 40px;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+}
+.skill_2{}
+#skill1, #skill2, #skill3, #skill4, #skill5, #skill6 {
+  margin-bottom: 30px;
+  color: var(--accent-color);
+}
+/*skills end*/
+
+/*services start*/
+.services{
+  padding: 80px 0 20px;
+}
+.services_1{}
+.ser_title{}
+.ser_item {
+  margin-bottom: 30px;
+  padding: 40px;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 188, 212, 0.3), 0 4px 6px rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.ser_icon{}
+.ser_icon img{}
+.ser_item h2 {
+  margin: 20px 0;
+  color: var(--white);
+}
+
+.ser_item p {
+  color: var(--white);
+}
+/*services end*/
+
+/*count start*/
+.count{
+  margin: 20px 0;
+  padding: 30px 0;
+  background-color: var(--accent-color);
+  box-shadow: 0 8px 20px rgba(0, 188, 212, 0.3), 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+.count1, .count2, .count3 {
+  color: var(--white);
+}
+/*count end*/
+
+/*portfolio start*/
+.portfolio{
+  padding: 80px 0 20px;
+}
+.port_1{}
+.port_title{}
+.c_port{
+  font-size: 20px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+
+.port_full{
+  margin-top: 40px;
+}
+.port_img{
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 188, 212, 0.3), 0 0 30px rgba(0, 0, 0, 0.6);
+}
+.port_img:hover{
+  box-shadow:
+  0 0 20px 8px rgba(0, 255, 255, 0.5),
+  0 0 30px 12px rgba(0, 255, 255, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+.port_text{
+  margin: 20px 0;
+}
+.port_text h3{
+  font-size: 22px;
+  color: var(--white);
+}
+.port_text p{
+  color: var(--white);
+}
+/*portfolio end*/
+/*contact start*/
+.contact{
+  padding: 80px 0 60px;
+}
+.con_img{}
+.con_img img{
+  border: none;
+  border-radius: 5px;
+}
+.con_img{}
+.c_contact{
+  color: var(--white);
+}
+
+/*contact end*/
+
+/*footer_top start*/
+.footer_top{
+  padding: 50px 0 40px;
+  background-color: var(--header-footer);
+}
+
+.ft_details{
+  padding-right: 150px;
+}
+.ft_details h1{
+  margin: 0 0 20px;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+}
+.ft_details span{
+  color: var(--hover);
+}
+.ft_details p {
+  color: var(--white);
+}
+
+.ft_links{}
+.ft_links h2{
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 30px;
+}
+.ft_links ul li a{
+  margin-bottom: 8px;
+  display: block;
+  color: var(--white);
+  text-decoration: none;
+}
+/*footer_top end*/
+
+/*footer-down start*/
+.footer_d{
+  padding-bottom: 30px;
+  background-color: var(--header-footer);
+}
+.footer_d p{
+  color: var(--white);
+  line-height: 30px;
+}
+
+.footer_d p a{
+  color: var(--hover);
+}
+/*footer-down end*/

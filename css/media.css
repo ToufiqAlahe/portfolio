@@ -1,0 +1,340 @@
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+/*header start*/
+  .header {
+    padding: 10px 0;
+  }
+  .logo {
+    padding-left: 15px;
+    font-size: 24px; /* Logo size for tablets */
+  }
+  .menu ul li a{
+    padding-left: 15px;
+  }
+/*header end*/
+/*hero start*/
+  .slider {
+    margin-top: 70px;
+  }
+/* Carousel caption text sizing */
+  .slider .carousel-caption h5 {
+    font-size: 28px;
+  }
+
+  .slider .carousel-caption p {
+    font-size: 15px;
+    padding: 0 0;
+  }
+
+  .carousel-caption {
+    bottom: 10%;
+    text-align: center;
+  }
+
+  /* Force image height for better fit */
+  .carousel-item img {
+    border-radius: 5px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  /* Make caption always visible */
+  .carousel-caption.d-none.d-md-block {
+    display: block !important;
+  }
+  .b_button{
+    font-size: 15px;
+    padding: 7px 14px;
+  }
+/*hero end*/
+/*about start*/
+  .about{
+    padding: 20px 0 20px;
+  }
+  .a_title {
+    text-align: center;
+  }
+  .a_title h2 {
+    padding: 30px 0;
+    font-size: 24px;
+  }
+  .a_title p {
+    font-size: 15px;
+  }
+/*about end*/
+/*skills start*/
+  .skills{
+    padding: 30px 0 20px;
+  }
+  .c_title{
+    font-size: 24px;
+  }
+  #skill1, #skill2, #skill3, #skill4, #skill5, #skill6 {
+    font-size: 15px;
+  }
+/*skills end*/
+/*services start*/
+  .services{
+    padding: 30px 0 20px;
+  }
+  .ser_item {
+    padding: 30px 20px;
+  }
+  .ser_item h2{
+    font-size: 20px;
+  }
+  .ser_item p{
+    font-size: 15px;
+  }
+/*services end*/
+/*portfolio start*/
+  .portfolio{
+    padding: 30px 0 20px;
+  }
+  .c_port{
+    font-size: 16px;
+  }
+  .port_text h3{
+    font-size: 18px;
+  }
+  .port_text p{
+    font-size: 15px;
+  }
+/*portfolio end*/
+/*contact start*/
+  .contact{
+    padding: 30px 0 40px;
+  }
+  .con{
+    padding-top: 40px;
+    text-align: center;
+  }
+/*contact end*/
+/*footer_top start*/
+  .footer_top{
+    padding: 35px 0 25px;
+  }
+  .ft_details{
+    padding-right: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .ft_details h1{
+    font-size: 24px;
+  }
+
+  .ft_links{
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .ft_links h2{
+    font-size: 17px;
+  }
+  .ft_details p, .ft_links ul li a{
+    font-size: 15px;
+  }
+/*footer_top end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/*header start*/
+  .header {
+    padding: 15px 0;
+  }
+  .logo {
+    font-size: 28px; /* Logo size for tablets */
+  }
+/*header end*/
+/*hero start*/
+  .slider .carousel-caption h5 {
+    font-size: 32px;
+  }
+
+  .slider .carousel-caption p {
+    font-size: 16px;
+    padding: 0 0;
+  }
+
+  .carousel-caption {
+    bottom: 12%;
+  }
+
+  .carousel-item img {
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .carousel-caption.d-none.d-md-block {
+    display: block !important;
+  }
+  .b_button{
+    padding: 8px 20px;
+  }
+/*hero end*/
+/*about start*/
+  .about{
+    padding: 40px 0 20px;
+  }
+  .a_title {
+    text-align: center;
+  }
+  .a_title h2{
+    font-size: 28px;
+  }
+/*about end*/
+/*skills start*/
+  .skills{
+    padding: 40px 0 20px;
+  }
+  .c_title{
+    font-size: 28px;
+  }
+/*skills end*/
+/*services start*/
+  .services{
+    padding: 40px 0 20px;
+  }
+  .ser_item {
+    padding: 28px;
+  }
+  .ser_item h2{
+    font-size: 23px;
+  }
+/*services end*/
+/*portfolio start*/
+  .portfolio{
+    padding: 40px 0 20px;
+  }
+  .c_port{
+    font-size: 17px;
+  }
+  .port_text h3{
+    font-size: 18px;
+  }
+  .port_text p{
+    font-size: 16px;
+  }
+/*portfolio end*/
+/*contact start*/
+  .contact{
+    padding: 40px 0 40px;
+  }
+  .con{
+    padding-top: 40px;
+    text-align: center;
+  }
+/*contact end*/
+/*footer_top start*/
+  .footer_top{
+    padding: 40px 0 30px;
+  }
+  .ft_details{
+    padding-right: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .ft_details h1{
+    font-size: 28px;
+  }
+/*footer_top end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/*header start*/
+  .logo {
+    font-size: 32px; /* Logo size for tablets */
+  }
+/*header end*/
+/*hero start*/
+  .slider .carousel-caption h5 {
+    font-size: 34px;
+  }
+
+  .slider .carousel-caption p {
+    font-size: 17px;
+    padding: 0 4px;
+  }
+/*hero end*/
+/*about start*/
+  .about{
+    padding: 55px 0 20px;
+  }
+  .a_title {
+    text-align: center;
+  }
+  .a_title h2{
+    font-size: 30px;
+  }
+/*about end*/
+/*skills start*/
+  .skills{
+    padding: 40px 0 20px;
+  }
+  .c_title{
+    font-size: 30px;
+  }
+/*skills end*/
+/*services start*/
+  .services{
+    padding: 40px 0 20px;
+  }
+  .ser_item {
+    padding: 32px;
+  }
+  .ser_item h2{
+    font-size: 26px;
+  }
+/*services end*/
+/*portfolio start*/
+  .portfolio{
+    padding: 40px 0 20px;
+  }
+  .c_port{
+    font-size: 18px;
+  }
+  .port_text h3{
+    font-size: 20px;
+  }
+/*portfolio end*/
+/*contact start*/
+  .contact{
+    padding: 40px 0 50px;
+  }
+/*contact end*/
+/*footer_top start*/
+  .footer_top{
+    padding: 40px 0 30px;
+  }
+  .ft_details{
+    padding-right: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .ft_details h1{
+    font-size: 32px;
+  }
+/*footer_top end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*footer_top start*/
+  .ft_details {
+    padding-right: 75px;
+  }
+/*footer_top end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+}
